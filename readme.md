@@ -1,4 +1,6 @@
-# Small project to replicate an issue with react-bootstrap packaging
+A Small project to replicate an issue with react-bootstrap packaging
+
+This example goes with the issue filed at the `react-bootstrap` repo.  https://github.com/react-bootstrap/react-bootstrap/issues/96.
 
 ## Prelim
 
