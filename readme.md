@@ -59,6 +59,19 @@ It turns out the react-bootstrap folks package and distro the project to both np
 
 Fixed the problem here by depending on react and react-bootstrap in npm rather than from bower.
 
+### Alternate Solution
 
+@pieterv also provided a bower-based solution.  The trick is to grab the CJS version of the project from github rather than
+the bower distribution.  Copying his notes:
+
+```json
+{
+  ...
+  "dependencies": {
+    ...
+    "react-bootstrap": "react-bootstrap/react-bootstrap-npm#~0.10.2"
+  }
+}
+```
 
 
