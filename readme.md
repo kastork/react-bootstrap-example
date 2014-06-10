@@ -53,3 +53,12 @@ It seems the react-bootstrap library can't find React.
 
 These are the two documented ways to bring ReactBootstrap components into an app using node's commonjs system, and neither one seems to work.
 
+## Solution
+
+It turns out the react-bootstrap folks package and distro the project to both npm and to bower.  The bower bundle targets AMD style depenency management, and the npm bundle targets commonjs.
+
+Fixed the problem here by depending on react and react-bootstrap in npm rather than from bower.
+
+
+
+
